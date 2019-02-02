@@ -9,10 +9,8 @@ def run_guessing_game
       break
     when user_input.to_i == number
       puts "You guessed the correct number!"
-      break
     when user_input.to_i != number
       puts "The computer guessed #{number}."
-      break
     else
       puts "Invalid input."
     end
